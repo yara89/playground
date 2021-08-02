@@ -1,0 +1,29 @@
+.CalculatorBody {
+  max-width: 98%;
+  text-align: center;
+  margin: auto 1%;
+  border: 2px solid black;
+  border-radius: 1em;
+}
+
+.Keypad {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0.7rem;
+  background-color: rgba(2, 160, 252, 0.562);
+  align-items: center;
+}
+
+.KeypadRow {
+  display: inherit;
+  flex-flow: row nowrap;
+}
+
+@media (min-width: 500px) {
+  .CalculatorBody {
+    max-width: 80%;
+    margin: auto 10%;
+  }
+
+}

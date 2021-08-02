@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+.Display {
+  position: relative;
+  overflow: hidden;
+  margin: 0.5em;
+  padding: 0.5em;
+  min-height: 10em;
+  background-color: rgba(116, 116, 116, 0.288);
+  box-sizing: border-box;
+  border-radius: 0.5em;
+}
+
+.Output {
+  text-align: center;
+  margin-top: 0.7em;
+  color:  rgb(0, 0, 0);
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+@media (min-width: 500px) {
+  .Display {
+    min-height: 10em;
+  }
+  .Output {
+    font-size: 3em;
+  }
+}

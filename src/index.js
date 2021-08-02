@@ -1,8 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
+import './index.css';
+
+//import tick from "./SimpleClock/tick"
+//setInterval(tick, 1000);
+
+//import Clock from './Clock/Clock'
+
 import * as serviceWorker from './serviceWorker';
+
+//function tick() {
+// ReactDOM.render(
+//  <Clock date={new Date()} />,
+//   document.getElementById('root')
+// );
+//}
+
+//setInterval(tick, 1000);
+// ReactDOM.render(
+//   <Clock date={new Date()} />,
+//  document.getElementById('root'));
 
 ReactDOM.render(
   <React.StrictMode>

@@ -1,0 +1,70 @@
+
+
+.App {
+  padding: 1em;
+  padding-bottom: 1em;
+  border: 0.5px solid rgb(0, 0, 0);
+  align-content: center;
+
+
+}
+
+.App > h1 {
+  font-size: 4em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App > button {
+  font-size: 1em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family:'Courier New', Courier, monospace;
+  background-color: rgb(0, 0, 0);
+  display: inline-block;
+
+}
+
+.App > .menubutton {
+  font-family:'Courier New', Courier, monospace;
+  border-radius: 20;
+  margin: 0.7em;
+  padding: 15px 32px;
+  cursor: pointer;
+
+}
+
+/*.Button {
+  align-content: center;
+  color: rgb(255, 255, 255);
+  width: 1em;
+  height: 1em;
+  margin: 0.1em;
+  padding: 0;
+  text-align: center;
+  font-size: 1em;
+  background-color: rgb(0, 0, 0);
+  border: 0.5px solid grey;
+  border-radius: 10px;
+}
+*/
+li {
+  align-content: center;
+  font-size: 15;
+}
+
+@media (min-width: 500px) {
+  .Button {
+    width: 3em;
+    height: 3em;
+    font-size: 1.5em;
+    
+  }
+  
+}
+@media (min-width: 500px) {
+  .App > h1 {
+    font-size: 1.6em;
+  }
+} 
