@@ -24,22 +24,41 @@ class App extends React.Component {
   render() {
     return (
       <div className={classes.App}>
-        <button
-          type="button"
-          className={classes.menubutton}
+       
+       <button
+                  type="button"
+                  className={classes.menubutton}
           onClick={() => {
             this.setState({
-              isClassTopicsVisible: true,
+              isClassTopicsVisible: false,
               isClockVisible: false,
               isCounterVisible: false,
-              isCalculatorVisible: false,
+              isCalculatorVisible: true,
               isTicTacToeVisible: false,
 
             });
           }}
         >
-          Show Class Topics
-        </button>
+          Use Calculator
+       </button>
+
+       <button
+                  type="button"
+                  className={classes.menubutton}
+          onClick={() => {
+            this.setState({
+              isClassTopicsVisible: false,
+              isClockVisible: false,
+              isCounterVisible: false,
+              isCalculatorVisible: false,
+              isTicTacToeVisible: true,
+
+            });
+          }}
+        >
+          Play Tic Tac Toe 
+         </button>
+
         <button
           type="button"
           className={classes.menubutton}
@@ -72,42 +91,28 @@ class App extends React.Component {
         >
           Show Counter
         </button>
-
-        {/* <button>TODO: Show Comment</button>           */}
-
         <button
-                  type="button"
-                  className={classes.menubutton}
+          type="button"
+          className={classes.menubutton}
           onClick={() => {
             this.setState({
-              isClassTopicsVisible: false,
+              isClassTopicsVisible: true,
               isClockVisible: false,
               isCounterVisible: false,
-              isCalculatorVisible: true,
+              isCalculatorVisible: false,
               isTicTacToeVisible: false,
 
             });
           }}
         >
-          Show Calculator
-         </button>
+          Show Class Topics
+        </button>
+        
+        {/* <button>TODO: Show Comment</button>           */}
 
-         <button
-                  type="button"
-                  className={classes.menubutton}
-          onClick={() => {
-            this.setState({
-              isClassTopicsVisible: false,
-              isClockVisible: false,
-              isCounterVisible: false,
-              isCalculatorVisible: false,
-              isTicTacToeVisible: true,
+       
 
-            });
-          }}
-        >
-          Show TicTacToe
-         </button>
+        
 
         {/* Conditional rendering: https://reactjs.org/docs/conditional-rendering.html */}
         {this.state.isClassTopicsVisible && <ClassTopics />}

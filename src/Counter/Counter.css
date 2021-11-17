@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont;
+}
+
+  .wrap {
+    height: 100vh;
+    width: 50vw;
+    font-size: 24;
+    display: flex;
+    padding: 50px 0px;
+    justify-content: center;
+  }
+  
+  .box {
+    padding: 50px 10px;
+    border: 5px solid #000304;
+    border-radius: 12px;
+    background-color: #ddf2f5;
+    justify-content: center;
+    font-size: 24;
+
+
+  }
+
+
+    /* ---- Need more work on CSS
+
+  .row {
+    justify-content: center !important;
+  }
+  
+  .btn {
+    
+
+  }
+  .badge {
+  }*/

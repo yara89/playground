@@ -1,0 +1,14 @@
+    body {
+        font: 14px "Century Gothic", Futura, sans-serif;
+        margin: 20px;
+        justify-content: center;
+        display: flex;
+      
+      }
+      
+      ol, ul {
+        padding-left: 30px;
+      }
+      
+      #classTopics {
+      }

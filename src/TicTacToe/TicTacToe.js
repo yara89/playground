@@ -128,7 +128,14 @@ export default class Game extends React.Component {
 // ========================================
 
 ReactDOM.render(
+  <div
+  style={{
+      position: 'absolute', left: '50%', top: '50%',
+      transform: 'translate(-50%, -50%)'
+  }}
+  >
   <Game />,
+  </div>,
   document.getElementById('root')
 );
 

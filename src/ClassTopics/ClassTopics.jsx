@@ -1,8 +1,9 @@
 import React from "react";
+import './ClassTopics.css';
 
 const ClassTopics = () => {
   return (
-    <div>
+    <div id="classTopics">
       <br />
       JavaScript
       <ul>

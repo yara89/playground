@@ -3,7 +3,8 @@
 .App {
   padding: 1em;
   padding-bottom: 1em;
-  border: 0.5px solid rgb(0, 0, 0);
+  /*border: 0.5px solid rgb(0, 0, 0);*/
+  border: none;
   align-content: center;
 
 
@@ -23,15 +24,20 @@
   font-family:'Courier New', Courier, monospace;
   background-color: rgb(0, 0, 0);
   display: inline-block;
+  border: none;
+  border-radius: 0.5em;
+
 
 }
 
 .App > .menubutton {
   font-family:'Courier New', Courier, monospace;
-  border-radius: 20;
+  border: none;
   margin: 0.7em;
   padding: 15px 32px;
   cursor: pointer;
+  border-radius: 0.5em;
+
 
 }
 
@@ -59,7 +65,8 @@ li {
     width: 3em;
     height: 3em;
     font-size: 1.5em;
-    
+    border: none;
+
   }
   
 }
