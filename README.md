@@ -1,6 +1,6 @@
-## https://yara89.github.io/playground/ <--- check it out
+### https://yara89.github.io/playground/ <--- check it out
 
-needs improvements in CSS but displaying a Calculator made during FrauenLoop class, and more.... 
+## needs improvements in CSS ...a Playground displaying a Calculator app built during FrauenLoop class, and more.... 
 
 # ---------------------------
 
